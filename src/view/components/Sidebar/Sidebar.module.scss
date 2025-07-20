@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: 15px;
+    padding: 15px;
+    height: 300px;
+}
+
+.container li{
+    cursor: pointer;
+}
+
+.container li:hover{
+    transition: 0.3s;
+    color: var(--color-pink);
+}

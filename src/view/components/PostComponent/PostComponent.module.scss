@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    padding: 15px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    &_name {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &_name h3{
+        font-size: 15px;
+    }
+
+    &_name p {
+        font-size: 13px;
+        color: gray;
+    }
+}
+
+.topic {
+    max-width: 500px;
+}
+
+.topic h3{
+    color: var(--color-pink);
+}
+
+.topic p {
+    font-size: 14px;
+    font-weight: 300;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.image {
+    max-height: 500px;
+    max-width: 500px;
+    background-color: red;
+}
+
+.action{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    &_icon{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        &Section{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+    }
+}

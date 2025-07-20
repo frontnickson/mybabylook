@@ -1,0 +1,14 @@
+.wrapper{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    left: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+}

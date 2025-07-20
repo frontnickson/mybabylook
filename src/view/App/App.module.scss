@@ -4,3 +4,9 @@
     padding-top: 70px;
     gap: 15px;
 }
+
+@media (max-width: 725px) {
+    .main{
+        justify-content: center;
+    }
+}

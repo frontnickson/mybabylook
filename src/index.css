@@ -73,3 +73,12 @@ a {
   border-radius: 30px;
   cursor: pointer;
 }
+
+
+.input {
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 30px;
+  margin: 0;
+  padding-left: 15px;
+}

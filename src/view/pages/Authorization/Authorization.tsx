@@ -2,7 +2,7 @@ import React from 'react';
 
 import styles from './Authorization.module.scss'
 
-const b: React.FC = () => {
+const Authorization: React.FC = () => {
   return (
     <div className={styles.container}>
 
@@ -11,20 +11,20 @@ const b: React.FC = () => {
         <h3>РЕГИСТРАЦИЯ</h3>
       </div>
 
-      <form>
+      <form className={styles.form}>
 
-        <input type='text' placeholder='Имя...' />
-        <input type='text' placeholder='Фамилия...' />
-        <input type='email' placeholder='E-mail...' />
-        <input type='password' placeholder='Пароль...' />
+        <input type='text' placeholder='Имя...' className='input'/>
+        <input type='text' placeholder='Фамилия...' className='input'/>
+        <input type='email' placeholder='E-mail...' className='input'/>
+        <input type='password' placeholder='Пароль...' className='input'/>
 
-        <button>Регистрация</button>
+        <button className='button'>Регистрация</button>
 
       </form>
 
       <p>Забыли пароль?</p>
 
-      <button>Продолжить с Google</button>
+      <button className='button-mini'>Продолжить с Google</button>
 
     </div>
   );

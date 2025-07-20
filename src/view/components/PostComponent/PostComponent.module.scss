@@ -1,8 +1,8 @@
 .container {
     display: flex;
     flex-direction: column;
-    gap: 10px;
     background-color: white;
+    gap: 10px;
     padding: 15px;
 }
 
@@ -16,7 +16,7 @@
         flex-direction: column;
     }
 
-    &_name h3{
+    &_name h3 {
         font-size: 15px;
     }
 
@@ -27,10 +27,10 @@
 }
 
 .topic {
-    max-width: 500px;
+    width: 100%;
 }
 
-.topic h3{
+.topic h3 {
     color: var(--color-pink);
 }
 
@@ -44,22 +44,20 @@
 }
 
 .image {
-    max-height: 500px;
-    max-width: 500px;
-    background-color: red;
+    width: 100%;
 }
 
-.action{
+.action {
     display: flex;
     align-items: center;
     gap: 5px;
 
-    &_icon{
+    &_icon {
         display: flex;
         align-items: center;
         gap: 5px;
 
-        &Section{
+        &Section {
             display: flex;
             align-items: center;
             gap: 5px;

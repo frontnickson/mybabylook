@@ -5,6 +5,7 @@
     gap: 15px;
     padding: 15px;
     height: 300px;
+    min-width: 150px;
 }
 
 .container li{
@@ -14,4 +15,11 @@
 .container li:hover{
     transition: 0.3s;
     color: var(--color-pink);
+}
+
+
+@media (max-width: 725px) {
+    .container{
+        display: none;
+    }
 }

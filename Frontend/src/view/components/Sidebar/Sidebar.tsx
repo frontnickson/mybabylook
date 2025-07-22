@@ -24,8 +24,8 @@ const Sidebar: React.FC = () => {
   return (
     <div className={styles.container}>
       {list.map(element => (
-        <ul>
-          <li key={element.id}>
+        <ul key={element.id}>
+          <li>
             <p>{element.title}</p>
           </li>
         </ul>

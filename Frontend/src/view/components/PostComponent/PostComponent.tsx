@@ -2,22 +2,25 @@ import React from 'react';
 
 import profileImage from '../../images/profile/profile-image.png'
 import image from '../../images/clotch/child-test.png'
+
 import styles from './PostComponent.module.scss'
 
 const PostComponent: React.FC = () => {
   return (
     <div className={styles.container}>
 
-
       <div className={styles.title}>
+
         <img src={profileImage} alt='profile-image' style={{ width: "50px", height: "50px" }} />
 
         <div className={styles.title_name}>
+
           <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
             <h3>Алена Лебедева</h3>
             <p>15 м</p>
           </div>
           <p>г.Москва</p>
+
         </div>
 
       </div>
@@ -27,9 +30,7 @@ const PostComponent: React.FC = () => {
         <p>Нашла в магазине отдельную прекрасную вещь на своего ребенка, эта вещь отлично сочетается с кофточкой. Нашла в магазине отдельную прекрасную вещь на своего ребенка, эта вещь отлично сочетается с кофточкой</p>
       </div>
 
-      <div className={styles.image}>
-        <img src={image} alt='image' style={{ width: "100%", height: "100%" }} />
-      </div>
+      <img src={image} alt='image' />
 
       <div className={styles.action}>
 

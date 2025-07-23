@@ -2,34 +2,23 @@ import React from 'react';
 
 import styles from './Sidebar.module.scss'
 
-const list = [
-  {
-    id: 1,
-    title: "Для мальчиков",
-    link: "/boy"
-  },
-  {
-    id: 2,
-    title: "Для девочек",
-    link: "/girl"
-  },
-  {
-    id: 3,
-    title: "Тренды сезонов",
-    link: "/trand"
-  },
-]
+import { categoriesList } from '../../../data/list/categoriesList';
 
 const Sidebar: React.FC = () => {
+
   return (
     <div className={styles.container}>
-      {list.map(element => (
+
+      {categoriesList.map(element => (
+
         <ul key={element.id}>
           <li>
             <p>{element.title}</p>
           </li>
         </ul>
+
       ))}
+
     </div>
   );
 };

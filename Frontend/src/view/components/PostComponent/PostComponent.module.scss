@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     background-color: white;
+    margin-bottom: auto;
     gap: 10px;
     padding: 15px;
 }
@@ -26,10 +27,6 @@
     }
 }
 
-.topic {
-    width: 100%;
-}
-
 .topic h3 {
     color: var(--color-pink);
 }
@@ -43,9 +40,6 @@
     overflow: hidden;
 }
 
-.image {
-    width: 100%;
-}
 
 .action {
     display: flex;

@@ -45,7 +45,7 @@ const FormAuthorization: React.FC = () => {
     return (
         <form className={styles.form} onSubmit={handleSubmit}>
 
-            <input type='text' placeholder='Имя...' className='input' onChange={(e) => { setName(e.target.value) }}/>
+            <input type='text' placeholder='Имя...' className='input' onChange={(e) => { setName(e.target.value) }} />
             <input type='text' placeholder='Фамилия...' className='input' onChange={(e) => { setSecondName(e.target.value) }} />
             <input type='email' placeholder='E-mail...' className='input' onChange={(e) => { setEmail(e.target.value) }} />
             <input type='password' placeholder='Пароль...' className='input' onChange={(e) => { setPassword(e.target.value) }} />
@@ -53,6 +53,7 @@ const FormAuthorization: React.FC = () => {
             <button className='button' type='submit'>Регистрация</button>
 
             <p style={{ color: "red" }}>{message}</p>
+
         </form>
     );
 };
